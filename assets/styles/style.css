@@ -97,6 +97,11 @@ nav {
     top: 0;
 }
 
+nav ul {
+    padding-inline: 4 rem; /* membuat padding secara horizontal */
+    display: flex;
+}
+
 header {
     display: inline;
 }
