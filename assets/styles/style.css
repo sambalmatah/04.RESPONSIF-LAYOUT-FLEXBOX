@@ -100,6 +100,7 @@ nav {
 nav ul {
     padding-inline: 4 rem; /* membuat padding secara horizontal */
     display: flex;
+    gap: 2rem; /* membuat gap pada setiap celah antara tombol navigasi, kemudian hilangkan properti margin-right pada selector nav li */
 }
 
 header {
