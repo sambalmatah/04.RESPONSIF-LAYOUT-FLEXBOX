@@ -24,7 +24,7 @@ main {
 
     display: flex; /* membuat elemen ini menjadi memiliki child elemen secara default ditata horizontal */
     flex-flow: column nowrap; /* membuat child elemen ditata secara vertical (crossing default) */
-    gap: 1rem 2 rem; /* membuat celah antara item secara vertikal dan horizontal */
+    gap: 1rem 2rem; /* membuat celah antara item secara vertikal dan horizontal */
 }
 
 aside {
