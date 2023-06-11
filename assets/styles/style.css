@@ -14,6 +14,7 @@ main {
     padding: 20px;
     /* overflow: auto; <<-- dihilangkan dari properti nav_li */
     display: flex; /* menerapkan main menggunakan flexbox, di dalam elemen main terdapat 2 elemen #content dan elemen aside */
+    gap: 1.5rem; /* menambahkan gap antar elemen */
 }
 
 #content {
