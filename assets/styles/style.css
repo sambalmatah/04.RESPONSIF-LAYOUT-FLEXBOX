@@ -138,4 +138,8 @@ header {
         justify-content: center; /* membuat elemen navigasi berada di tengah pada ukuran layar dibawah 768px */
     }
 
+    main aside {
+        align-self: stretch; /* membuat elemen aside ditata secara melebar memenuhi parent elemen pada ukuran layar dibawah 768px */
+    }
+
 }
