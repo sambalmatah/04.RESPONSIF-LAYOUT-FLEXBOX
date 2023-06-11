@@ -20,12 +20,14 @@ main {
 #content {
     /* float: left; <<-- dihilangkan dari properti #content. karene sudah mengguanakn flexbox */
     /* width: 75%; */
+    flex: 5; /* menerapkan properti flex sebagai pengganti float */
 }
 
 aside {
     /* float: right; <<-- dihilangkan dari properti #content. karene sudah mengguanakn flexbox */
     /* width: 25%; */
     /* padding-left: 20px; */
+    flex: 1; /* menerapkan properti flex sebagai pengganti float */
 }
 
 nav a {
