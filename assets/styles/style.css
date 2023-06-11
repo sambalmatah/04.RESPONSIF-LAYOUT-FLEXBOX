@@ -115,6 +115,9 @@ header {
     display: inline;
 }
 
+
+/* MEYESUAIKAN MEDIA SCREEN UBAH MENJADI 1200px dan 768px */
+
 /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang dimiliki ukuran viewport di bawah 992px */
 
 @media screen and (max-width: 1000px) {
