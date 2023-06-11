@@ -85,9 +85,9 @@ footer {
 }
 
 nav li {
-    /* display: inline; <<-- dihilangkan dari properti nav_li*/
+    /* display: inline; <<-- dihilangkan dari properti nav_li */
     list-style-type: none;
-    margin-right: 20px;
+    /* margin-right: 20px; <<-- dihilangkan dari properti nav_li */
 }
 
 nav {
