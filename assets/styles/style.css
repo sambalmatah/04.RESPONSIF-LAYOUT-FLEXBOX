@@ -12,14 +12,11 @@ body {
 
 main {
     padding: 20px;
-    /* overflow: auto; <<-- dihilangkan dari properti main */
     display: flex; /* menerapkan main menggunakan flexbox, di dalam elemen main terdapat 2 elemen #content dan elemen aside */
     gap: 1.5rem; /* menambahkan gap antar elemen */
 }
 
 #content {
-    /* float: left; <<-- dihilangkan dari properti #content. karene sudah mengguanakn flexbox */
-    /* width: 75%; */
     flex: 5; /* menerapkan properti flex-item sebagai pengganti float */
 
     display: flex; /* membuat elemen ini menjadi memiliki child elemen secara default ditata horizontal */
@@ -28,9 +25,6 @@ main {
 }
 
 aside {
-    /* float: right; <<-- dihilangkan dari properti #content. karene sudah mengguanakn flexbox */
-    /* width: 25%; */
-    /* padding-left: 20px; */
     flex: 1; /* menerapkan properti flex-item sebagai pengganti float */
 }
 
@@ -81,7 +75,6 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
-    /* margin-top: 20px; <<-- dihilangkan dari properti .card. karene sudah mengguanakn flexbox */
 }
 
 .jumbotron {
@@ -93,9 +86,7 @@ footer {
 }
 
 nav li {
-    /* display: inline; <<-- dihilangkan dari properti nav_li */
     list-style-type: none;
-    /* margin-right: 20px; <<-- dihilangkan dari properti nav_li */
 }
 
 nav {
