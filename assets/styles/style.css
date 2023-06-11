@@ -121,6 +121,9 @@ header {
 /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang dimiliki ukuran viewport di bawah 1200px */
 
 @media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column wrap; /* menambahkan flex-flow terhadap item #content dan aside ditata secara vertikal pada ukuran layar dibawah 1200px */
+    }
     
 }
 
