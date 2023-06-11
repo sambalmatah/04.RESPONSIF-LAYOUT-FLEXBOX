@@ -23,6 +23,7 @@ main {
     flex: 5; /* menerapkan properti flex-item sebagai pengganti float */
 
     display: flex; /* membuat elemen ini menjadi memiliki child elemen secara default ditata horizontal */
+    flex-flow: column nowrap; /* membuat child elemen ditata secara vertical (crossing default) */
 }
 
 aside {
