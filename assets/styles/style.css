@@ -124,6 +124,10 @@ header {
     main {
         flex-flow: column wrap; /* menambahkan flex-flow terhadap item #content dan aside ditata secara vertikal pada ukuran layar dibawah 1200px */
     }
+
+    main aside {
+        align-self: center; /* menambahkan align-self elemen aside ditata berada di tengah dan memiliki ukuran original pada ukuran layar dibawah 1200px */
+    }
     
 }
 
