@@ -134,5 +134,8 @@ header {
 /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 768px */
 
 @media screen and (max-width: 768px) {
+    nav ul {
+        justify-content: center; /* membuat elemen navigasi berada di tengah pada ukuran layar dibawah 768px */
+    }
 
 }
